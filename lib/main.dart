@@ -1,21 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:login/screens/log.dart';
 
 void main() {
-  
-runApp(MaterialApp(Home:ProfileApp));
-  
-  
-}
-class ProfileApp extends StatefulWidget {
-  const ProfileApp({super.key});
+  runApp(MaterialApp(home:Log_Screen()));
 
-  @override
-  State<ProfileApp> createState() => _ProfileAppState();
-}
-
-class _ProfileAppState extends State<ProfileApp> {
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
 }
